@@ -24,15 +24,45 @@ public class Nivel extends javax.swing.JFrame {
         setVisible(true);
         setResizable(false);
         jButton1.addActionListener(new Nivel.BtnFacil());
+        jButton2.addActionListener(new Nivel.BtnNormal());
+        jButton3.addActionListener(new Nivel.BtnDificil());
     }
     
-     public class BtnFacil implements ActionListener{
+    public class BtnFacil implements ActionListener{
 
         @Override
         public void actionPerformed(ActionEvent e) {
             dispose();
             try {
                 JuegoFacil.Metodos facil = new JuegoFacil.Metodos();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Nivel.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        
+    }
+     
+    public class BtnNormal implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            dispose();
+            try {
+                JuegoNormal.Metodos facil = new JuegoNormal.Metodos();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Nivel.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        
+    }
+    
+    public class BtnDificil implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            dispose();
+            try {
+                JuegoDificil.Metodos facil = new JuegoDificil.Metodos();
             } catch (InterruptedException ex) {
                 Logger.getLogger(Nivel.class.getName()).log(Level.SEVERE, null, ex);
             }

@@ -22,6 +22,9 @@ public class Principal extends javax.swing.JFrame {
         setVisible(true);
         setResizable(false);
         jButton1.addActionListener(new BtnNivel());
+        jButton2.addActionListener(new BtnRanking());
+        jButton3.addActionListener(new BtnSalir());
+        jButton4.addActionListener(new BtnReglas());
         
     };
     
@@ -31,6 +34,32 @@ public class Principal extends javax.swing.JFrame {
         public void actionPerformed(ActionEvent e) {
             dispose();
             Nivel nivel = new Nivel();   
+        }
+        
+    }
+    
+    public class BtnRanking implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+              
+        }  
+    }
+    
+    public class BtnReglas implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+               
+        }
+        
+    }
+    
+    public class BtnSalir implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.exit(0);      
         }
         
     }
