@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Juan Padilla Ceballos
+ */
+
 package JuegoFacil;
 
 import java.awt.Color;

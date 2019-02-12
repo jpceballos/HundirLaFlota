@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Juan Padilla Ceballos
+ */
+
 package JuegoDificil;
 
 import static JuegoDificil.Metodos.iniciar;

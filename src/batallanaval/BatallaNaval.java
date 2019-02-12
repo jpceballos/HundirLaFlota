@@ -9,7 +9,7 @@ import Interface.Login;
 
 /**
  *
- * @author Ichigo
+ * @author Juan Padilla Ceballos
  */
 public class BatallaNaval {
 

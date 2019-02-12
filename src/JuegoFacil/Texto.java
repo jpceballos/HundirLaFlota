@@ -1,5 +1,9 @@
-package JuegoFacil;
+/**
+ *
+ * @author Juan Padilla Ceballos
+ */
 
+package JuegoFacil;
 
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;

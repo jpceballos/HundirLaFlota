@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Juan Padilla Ceballos
+ */
+
 package JuegoNormal;
 
 import java.awt.Color;

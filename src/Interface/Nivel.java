@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Ichigo
+ * @author Juan Padilla Ceballos
  */
 public class Nivel extends javax.swing.JFrame {
 

@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author Ichigo
+ * @author Juan Padilla Ceballos
  */
 public class Principal extends javax.swing.JFrame {
 

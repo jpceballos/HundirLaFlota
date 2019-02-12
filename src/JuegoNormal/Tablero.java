@@ -1,6 +1,10 @@
+/**
+ *
+ * @author Juan Padilla Ceballos
+ */
+
 package JuegoNormal;
 
-import JuegoFacil.*;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
