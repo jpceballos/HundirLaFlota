@@ -45,7 +45,7 @@ public class Ganar extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -55,14 +55,14 @@ public class Ganar extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("¡¡¡ Enhorabuena !!!");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(150, 20, 242, 45);
+        jLabel1.setBounds(130, 20, 242, 45);
 
         jLabel2.setFont(new java.awt.Font("Brush Script MT", 0, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("¡¡¡ Has Ganado la Partida !!!");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(90, 80, 379, 45);
+        jLabel2.setBounds(60, 80, 379, 45);
 
         jButton1.setFont(new java.awt.Font("Brush Script MT", 0, 24)); // NOI18N
         jButton1.setText("Aceptar");
@@ -72,15 +72,14 @@ public class Ganar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(210, 350, 110, 39);
+        jButton1.setBounds(200, 340, 110, 39);
 
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Batalla naval4.jpg"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, -30, 550, 470);
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Batalla naval4.jpg"))); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(0, 0, 510, 410);
 
-        setSize(new java.awt.Dimension(554, 462));
+        setSize(new java.awt.Dimension(515, 438));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -125,6 +124,6 @@ public class Ganar extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
