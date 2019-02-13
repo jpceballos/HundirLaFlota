@@ -50,7 +50,8 @@ public class Principal extends javax.swing.JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-               
+           dispose();
+           Reglas reglas = new Reglas();
         }
         
     }
