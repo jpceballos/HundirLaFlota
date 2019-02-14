@@ -102,7 +102,7 @@ public class MainDao {
         jugadores.modificarPuntosNormal(j);
      }
      
-     // Metodo para modificar puntuacion en modo normal
+     // Metodo para modificar puntuacion en modo dificil
      
      public static void modificarPuntuacionDificil(GestionDao jugadores, Jugador j) throws SQLException{
         jugadores.modificarPuntosDificil(j);

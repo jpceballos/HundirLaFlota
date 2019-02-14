@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package batallanaval;
+package HundirLaFlota;
 
 import Interface.Login;
 
@@ -11,7 +11,7 @@ import Interface.Login;
  *
  * @author Juan Padilla Ceballos
  */
-public class BatallaNaval {
+public class HundirLaFlota {
 
     /**
      * @param args the command line arguments
