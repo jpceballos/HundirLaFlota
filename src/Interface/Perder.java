@@ -71,9 +71,10 @@ public class Perder extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Batalla naval5.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, 0, 570, 430);
+        jLabel3.setBounds(0, 0, 580, 440);
 
-        pack();
+        setSize(new java.awt.Dimension(583, 470));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
