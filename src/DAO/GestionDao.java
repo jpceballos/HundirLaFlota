@@ -49,7 +49,7 @@ public class GestionDao {
         if (existeJugador(j)) {
             
         } else {
-            //Si el entrenador no existe lo creamos
+            //Si el jugador no existe lo creamos
             
             //Creamos la sentencia para insertar el jugador en SQL
             
